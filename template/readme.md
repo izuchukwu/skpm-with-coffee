@@ -51,7 +51,7 @@ To modify the CoffeeScript compiler arguments, see the `coffee` and `watch-coffe
 
 #### Sketch & skpm
 
-The Sketch manifest can be modified in `js/manifest.json`, and to modify the skpm build arguments, see the `build` and `watch-sketch` scripts in `package.json`.
+The Sketch manifest can be modified in `js/manifest.json`, and to modify the skpm build arguments, see the `sketch` and `watch-sketch` scripts in `package.json`.
 
 #### Babel
 
