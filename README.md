@@ -13,20 +13,22 @@ This will:
 
 ## Developing a plugin
 
-Once you're done, you can transpile your CoffeeScript with:
+Once you're done, rather than call `coffee` or `skpm` directly, check out the included scripts:
 
-	npm run coffee
+``` bash
+# transpile, build, & watch for both
+yarn watch
 
-and build your plugin with:
+# watch the logs
+yarn log
 
-	npm run build
+# transpile, but don't build
+yarn coffee
 
-If you'd like to transpile & build on every save, use:
+# build for production
+yarn build
+```
 
-	npm run watch
-
-and if you'd like to view a running log of your plugin, use:
-
-	npm run log
+or `npm run` instead of `yarn` if that's more your thing.
 
 ✌️
