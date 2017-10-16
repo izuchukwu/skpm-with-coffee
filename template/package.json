@@ -13,12 +13,12 @@
 		"postinstall": "npm run build && skpm-link",
 		"coffee": "coffee --output js -cb --no-header source",
 		"sketch": "skpm-build",
+		"sketch-link": "skpm-link",
 		"build": "run-s coffee sketch",
 		"watch-coffee": "coffee --output js -cwb --no-header source",
 		"watch-sketch": "skpm-build --watch",
 		"watch": "run-p --print-label watch-coffee watch-sketch",
-		"log": "skpm log -f",
-		"link": "skpm-link"
+		"log": "skpm log -f"
 	},
 	"devDependencies": {
 		"@skpm/builder": "^0.1.3",
