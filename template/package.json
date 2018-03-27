@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"@skpm/builder": "^0.4.0",
-		"coffeescript": "^2.0.1",
+		"coffeescript": "^2.2.3",
 		"nodemon": "^1.17.2",
 		"npm-run-all": "^4.1.1"
 	}

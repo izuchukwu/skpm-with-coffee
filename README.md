@@ -19,27 +19,16 @@ After creating, consider adding `author`, `license`, `description`, and `reposit
 Once you're done, rather than call `coffee` or `skpm` directly, check out the included scripts:
 
 ``` bash
-# transpile, build, & watch for both
+# compile, build, & watch for changes
 yarn watch
 
 # watch the logs
 yarn log
-
-# transpile, compile but don't build
-yarn build-coffee
 
 # build only
 yarn build
 ```
 
 or `npm run` instead of `yarn`.
-
-## Structure
-
-A few slight structure changes from skpm's standard template:
-- The `source` folder holds the original source
-- The `js` folder holds the JS output that uses
-
-Might suggest adding the `js` folder to your `.gitignore`.
 
 ✌️
